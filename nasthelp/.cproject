@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="photran.managedbuild.config.gnu.fortran.win32.exe.debug.2103766832">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="photran.managedbuild.config.gnu.fortran.win32.exe.debug.2103766832" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.GFortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.photran.core.GFortranErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser" id="photran.managedbuild.config.gnu.fortran.win32.exe.debug.2103766832" name="Debug" parent="photran.managedbuild.config.gnu.fortran.win32.exe.debug">
+					<folderInfo id="photran.managedbuild.config.gnu.fortran.win32.exe.debug.2103766832." name="/" resourcePath="">
+						<toolChain id="photran.managedbuild.toolchain.gnu.fortran.win32.exe.debug.1818291809" name="GCC Fortran" superClass="photran.managedbuild.toolchain.gnu.fortran.win32.exe.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="photran.managedbuild.target.gnu.platform.win32.exe.debug.595916128" name="Debug Platform" osList="win32" superClass="photran.managedbuild.target.gnu.platform.win32.exe.debug"/>
+							<builder buildPath="${workspace_loc:/nasthelp}/Debug" id="photran.managedbuild.target.gnu.builder.win32.exe.debug.904676960" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="photran.managedbuild.target.gnu.builder.win32.exe.debug"/>
+							<tool id="photran.managedbuild.tool.gnu.c.compiler.win32.exe.debug.2035494546" name="GCC C Compiler" superClass="photran.managedbuild.tool.gnu.c.compiler.win32.exe.debug"/>
+							<tool id="photran.managedbuild.tool.gnu.fortran.compiler.win32.exe.debug.1327180081" name="GNU Fortran Compiler" superClass="photran.managedbuild.tool.gnu.fortran.compiler.win32.exe.debug"/>
+							<tool id="photran.managedbuild.tool.gnu.fortran.linker.win32.exe.debug.1040471260" name="GNU Fortran Linker" superClass="photran.managedbuild.tool.gnu.fortran.linker.win32.exe.debug"/>
+							<tool id="photran.managedbuild.tool.gnu.assembler.win32.exe.debug.858982170" name="GCC Assembler" superClass="photran.managedbuild.tool.gnu.assembler.win32.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="photran.managedbuild.config.gnu.fortran.win32.exe.release.928542284">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="photran.managedbuild.config.gnu.fortran.win32.exe.release.928542284" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.GFortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.photran.core.GFortranErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser" id="photran.managedbuild.config.gnu.fortran.win32.exe.release.928542284" name="Release" parent="photran.managedbuild.config.gnu.fortran.win32.exe.release">
+					<folderInfo id="photran.managedbuild.config.gnu.fortran.win32.exe.release.928542284." name="/" resourcePath="">
+						<toolChain id="photran.managedbuild.toolchain.gnu.fortran.win32.exe.release.717925708" name="GCC Fortran" superClass="photran.managedbuild.toolchain.gnu.fortran.win32.exe.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="photran.managedbuild.target.gnu.platform.fortran.win32.exe.release.2111519559" name="Release Platform" osList="win32" superClass="photran.managedbuild.target.gnu.platform.fortran.win32.exe.release"/>
+							<builder buildPath="${workspace_loc:/nasthelp}/Release" id="photran.managedbuild.target.gnu.builder.win32.exe.release.325213887" managedBuildOn="true" name="Gnu Make Builder.Release" superClass="photran.managedbuild.target.gnu.builder.win32.exe.release"/>
+							<tool id="photran.managedbuild.tool.gnu.c.compiler.win32.exe.release.949453578" name="GCC C Compiler" superClass="photran.managedbuild.tool.gnu.c.compiler.win32.exe.release"/>
+							<tool id="photran.managedbuild.tool.gnu.fortran.compiler.win32.exe.release.153183054" name="GNU Fortran Compiler" superClass="photran.managedbuild.tool.gnu.fortran.compiler.win32.exe.release"/>
+							<tool id="photran.managedbuild.tool.gnu.fortran.linker.win32.exe.release.1625034063" name="GNU Fortran Linker" superClass="photran.managedbuild.tool.gnu.fortran.linker.win32.exe.release"/>
+							<tool id="photran.managedbuild.tool.gnu.assembler.win32.exe.release.602226510" name="GCC Assembler" superClass="photran.managedbuild.tool.gnu.assembler.win32.exe.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="nasthelp.photran.managedbuild.target.gnu.fortran.win32.exe.1193707131" name="Executable (Gnu Fortran on Windows)" projectType="photran.managedbuild.target.gnu.fortran.win32.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
