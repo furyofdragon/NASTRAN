@@ -19,7 +19,7 @@
 					<folderInfo id="photran.managedbuild.config.gnu.fortran.win32.exe.debug.337896697." name="/" resourcePath="">
 						<toolChain id="photran.managedbuild.toolchain.gnu.fortran.win32.exe.debug.1021321709" name="GCC Fortran" superClass="photran.managedbuild.toolchain.gnu.fortran.win32.exe.debug">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="photran.managedbuild.target.gnu.platform.win32.exe.debug.826273351" name="Debug Platform" osList="win32" superClass="photran.managedbuild.target.gnu.platform.win32.exe.debug"/>
-							<builder buildPath="${workspace_loc:/nastrn}/Debug" id="photran.managedbuild.target.gnu.builder.win32.exe.debug.604264326" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="photran.managedbuild.target.gnu.builder.win32.exe.debug"/>
+							<builder buildPath="${workspace_loc:/nastrn}/Debug" id="photran.managedbuild.target.gnu.builder.win32.exe.debug.604264326" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" stopOnErr="false" superClass="photran.managedbuild.target.gnu.builder.win32.exe.debug"/>
 							<tool id="photran.managedbuild.tool.gnu.c.compiler.win32.exe.debug.1367609781" name="GCC C Compiler" superClass="photran.managedbuild.tool.gnu.c.compiler.win32.exe.debug">
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.934723782" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -99,5 +99,12 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/nastrn"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/nastrn"/>
+		</configuration>
+	</storageModule>
 </cproject>
